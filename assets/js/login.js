@@ -58,7 +58,7 @@ $(function () {
                 }
                 layer.msg("登录成功")
                 //后台保存token 
-                localStorage.setItem("token")
+                localStorage.setItem("token", res.token)
                 // 跳转到index页面
                 location.href = '/index.html'
             }
